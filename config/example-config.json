@@ -1,0 +1,21 @@
+{
+  "Timeout": 60,
+  "MemorySize": 512,
+  "EphemeralStorage": {
+    "Size": 512
+  },
+  "Environment": {
+    "Variables": {
+      "LOG_LEVEL": "INFO",
+      "ENVIRONMENT": "production"
+    }
+  },
+  "VpcConfig": {
+    "SubnetIds": [],
+    "SecurityGroupIds": []
+  },
+  "Layers": [],
+  "TracingConfig": {
+    "Mode": "PassThrough"
+  }
+}
